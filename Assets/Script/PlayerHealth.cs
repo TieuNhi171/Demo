@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Assets.Script
 {
-    public class EnemyHealth : Health
+    public class PlayerHealth : Health
     {
         protected override void Die()
         {
             base.Die();
-            Debug.WriteLine("Enemy Die");
+            Debug.WriteLine("Player die");
         }
     }
 }
